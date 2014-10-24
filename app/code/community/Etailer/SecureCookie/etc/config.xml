@@ -37,6 +37,11 @@
                     <cookie>Etailer_SecureCookie_Model_Cookie</cookie>
                 </rewrite>
             </core>
+            <enterprise_pagecache>
+                <rewrite>
+                    <cookie>Etailer_SecureCookie_Model_PageCache_Cookie</cookie>
+                </rewrite>
+            </enterprise_pagecache>
         </models>
         
         <helpers>
